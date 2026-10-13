@@ -1,0 +1,20 @@
+# created-by: streamlit-in-workspaces; skill-version=1.0.0
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    query_warehouse: "ADHOC_WH"
+    compute_pool: "STREAMLIT_COMPUTE_POOL"
+    main_file: streamlit_app.py
+    artifacts:
+      - pyproject.toml
+      - streamlit_app.py
+      - .streamlit/config.toml
+      - data.py
+      - app_pages/home.py
+      - app_pages/model_catalog.py
+      - app_pages/model_access.py
+      - app_pages/feature_access.py
+      - app_pages/coco_on_off.py
+      - app_pages/verify_role.py
+      - app_pages/help.py
